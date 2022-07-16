@@ -30,7 +30,7 @@ namespace Balta
 
             var careers = new List<Career>();
             var careerDotnet = new Career("Especialista .NET", "especialista=dotnet");
-            var careerItem = new CareerItem(1, "Comece por aqui", "", null);
+            var careerItem = new CareerItem(1, "Comece por aqui", "", courseCsharp);
             careerDotnet.Items.Add(careerItem);
             careers.Add(careerDotnet);
 
