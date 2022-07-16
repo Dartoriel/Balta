@@ -13,5 +13,7 @@ namespace Balta.NotificationContext
     {
       Notification.AddRange(notifications);
     }
+
+    public bool IsValid => Notifications.Any();
   }
 }

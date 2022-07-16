@@ -6,7 +6,7 @@ namespace Balta.ContentContext
     {
       if(course == null)
       {
-        throw new System.Exception("O curso não pode ser nulo");
+       AddNotification(new NotificationContext("Course", "Curso inválido"));
       }
       Order = order;
       Title = title;
